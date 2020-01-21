@@ -5,6 +5,7 @@
 int main(int argc, char **argv)
 {
     int iRet = SUCC;
+    struct sockaddr_in adr_inet;
     
   err_proc:
   
